@@ -1,0 +1,26 @@
+.home {
+  height: 100vh;
+  position: relative;
+
+  &::before {
+    content: "";
+    margin: 30px;
+    margin-left: 65px;
+    width: 680px;
+    height: 840px;
+    background: #FBE0DC;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  &-background {
+    width: 775px;
+    height: 900px;
+    background-image: url("./home.png");
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+
+  }
+}

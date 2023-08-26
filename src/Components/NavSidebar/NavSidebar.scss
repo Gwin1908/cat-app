@@ -1,0 +1,66 @@
+.nav-sidebar {
+  margin-left: 147px;
+  margin-top: 30px;
+  width: 446px;
+  height: 544px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+
+  &-title {
+    color: #1D1D1D;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 58px;
+  }
+
+  &-welcome {
+    color: #8C8C8C;
+    font-family: Jost;
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 10px;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 20px;
+
+    .nav-cards {
+      display: flex;
+      gap: 16px;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        img {
+          cursor: pointer;
+        }
+
+        button {
+          width: 138px;
+          height: 36px;
+          border-radius: 10px;
+          color: #FF868E;
+          text-align: center;
+          font-size: 12px;
+          font-weight: 500;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          background: none;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+
+  }
+
+}
