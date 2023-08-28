@@ -1,0 +1,61 @@
+.breeds-section {
+  margin-top: 30px;
+
+  .breeds-content {
+    border-radius: 20px;
+    background: #FFF;
+    margin-top: 10px;
+    width: 680px;
+    height: 782px;
+  }
+
+  .breeds-header {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+
+    .back-button {
+      width: 40px;
+      height: 40px;
+      background: #FBE0DC;
+      border: transparent;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .breeds-title {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 146px;
+      height: 40px;
+      border-radius: 10px;
+      background: #FF868E;
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  }
+
+  .breeds-main {
+    display: grid;
+    // grid-gap: 20px;
+    grid-template-areas:
+      "a b c"
+      "a e e"
+      "d e e";
+
+    .breeds-card {
+      cursor: pointer;
+      &-image {
+        border-radius: 20px;
+        width: 200px;
+        height: 140px;
+      }
+
+    }
+  }
+}
